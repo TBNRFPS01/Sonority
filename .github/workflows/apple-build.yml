@@ -1,0 +1,16 @@
+name: Apple build and tests
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  apple:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Locate project
+        run: |
+          project_path=$(find "$GITHUB_WORKSPACE" -name Sonority.xcodeproj -type d -print -quit)
+          test -n "$project_path"
+          echo "SONORITY_ROOT=$(dirname "$project_path")" >> "$GITHUB_ENV"
+      - name: Test core
+        run: cd "$SONORITY_ROOT" && swift test
+      - name: Compile iPad app and widget without signing
+        run: cd "$SONORITY_ROOT" && xcodebuild -project Sonority.xcodeproj -scheme Sonority -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build

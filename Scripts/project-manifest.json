@@ -1,0 +1,813 @@
+{
+  "sourceFiles": [
+    "App/AudioPlayer.swift",
+    "App/Design.swift",
+    "App/LibraryStore.swift",
+    "App/LibraryView.swift",
+    "App/LyricsView.swift",
+    "App/NowPlayingView.swift",
+    "App/RootView.swift",
+    "App/SonorityApp.swift",
+    "App/SpotifyClient.swift",
+    "App/ToolsViews.swift"
+  ],
+  "widgetFiles": [
+    "Widget/SonorityWidget.swift"
+  ],
+  "testFiles": [
+    "Tests/CoreTests.swift"
+  ],
+  "objects": {
+    "81F31879437340D5CD6ED968": {
+      "isa": "PBXFileReference",
+      "explicitFileType": "wrapper.application",
+      "includeInIndex": 0,
+      "path": "Sonority.app",
+      "sourceTree": "BUILT_PRODUCTS_DIR"
+    },
+    "8FA98A24CDE63370537457A9": {
+      "isa": "PBXFileReference",
+      "explicitFileType": "wrapper.app-extension",
+      "includeInIndex": 0,
+      "path": "SonorityWidget.appex",
+      "sourceTree": "BUILT_PRODUCTS_DIR"
+    },
+    "70F09BF32F6D77A92FF191B4": {
+      "isa": "PBXFileReference",
+      "explicitFileType": "wrapper.cfbundle",
+      "includeInIndex": 0,
+      "path": "SonorityTests.xctest",
+      "sourceTree": "BUILT_PRODUCTS_DIR"
+    },
+    "DDA9ED7100424C653CD53F81": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/AudioPlayer.swift",
+      "sourceTree": "<group>"
+    },
+    "C416018AA832CE4ED12C10D5": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/Design.swift",
+      "sourceTree": "<group>"
+    },
+    "8B847361A2351A757F4E967A": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/LibraryStore.swift",
+      "sourceTree": "<group>"
+    },
+    "B496E8E8559756174CAE94C0": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/LibraryView.swift",
+      "sourceTree": "<group>"
+    },
+    "343948320D85233178A3B1D7": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/LyricsView.swift",
+      "sourceTree": "<group>"
+    },
+    "75E952E99B67E83F4E8C69D6": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/NowPlayingView.swift",
+      "sourceTree": "<group>"
+    },
+    "FB6E1E0BFF12AA0D280A4B8A": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/RootView.swift",
+      "sourceTree": "<group>"
+    },
+    "4432976615AED7EB2BFEC64E": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/SonorityApp.swift",
+      "sourceTree": "<group>"
+    },
+    "9481FDC15DF0B8082A38FE95": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/SpotifyClient.swift",
+      "sourceTree": "<group>"
+    },
+    "646AC66CD01E77CBDE10B5E4": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "App/ToolsViews.swift",
+      "sourceTree": "<group>"
+    },
+    "69DEF42293BB50DB7B2503B0": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "Widget/SonorityWidget.swift",
+      "sourceTree": "<group>"
+    },
+    "7FABE174E0F7A3305D2AB747": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "sourcecode.swift",
+      "path": "Tests/CoreTests.swift",
+      "sourceTree": "<group>"
+    },
+    "B4686A9D30CDA7DE4C3F2F33": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "text.plist.xml",
+      "path": "Config/Info.plist",
+      "sourceTree": "<group>"
+    },
+    "ADDFBE094A60BA902F55E0D4": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "text.plist.xml",
+      "path": "Config/WidgetInfo.plist",
+      "sourceTree": "<group>"
+    },
+    "53BFB60248A4710A752F4E70": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "text.plist.entitlements",
+      "path": "Config/Spotify.entitlements",
+      "sourceTree": "<group>"
+    },
+    "4AD441DFB1033D3B6CA64FBE": {
+      "isa": "PBXFileReference",
+      "lastKnownFileType": "folder.assetcatalog",
+      "path": "App/Assets.xcassets",
+      "sourceTree": "<group>"
+    },
+    "6F7199ED7B63CDA338A0FB82": {
+      "isa": "PBXGroup",
+      "children": [
+        {
+          "ref": "81F31879437340D5CD6ED968"
+        },
+        {
+          "ref": "8FA98A24CDE63370537457A9"
+        },
+        {
+          "ref": "70F09BF32F6D77A92FF191B4"
+        }
+      ],
+      "name": "Products",
+      "sourceTree": "<group>"
+    },
+    "AA0596BBDB4DCC95D5D4F10C": {
+      "isa": "PBXGroup",
+      "children": [
+        {
+          "ref": "DDA9ED7100424C653CD53F81"
+        },
+        {
+          "ref": "C416018AA832CE4ED12C10D5"
+        },
+        {
+          "ref": "8B847361A2351A757F4E967A"
+        },
+        {
+          "ref": "B496E8E8559756174CAE94C0"
+        },
+        {
+          "ref": "343948320D85233178A3B1D7"
+        },
+        {
+          "ref": "75E952E99B67E83F4E8C69D6"
+        },
+        {
+          "ref": "FB6E1E0BFF12AA0D280A4B8A"
+        },
+        {
+          "ref": "4432976615AED7EB2BFEC64E"
+        },
+        {
+          "ref": "9481FDC15DF0B8082A38FE95"
+        },
+        {
+          "ref": "646AC66CD01E77CBDE10B5E4"
+        },
+        {
+          "ref": "69DEF42293BB50DB7B2503B0"
+        },
+        {
+          "ref": "7FABE174E0F7A3305D2AB747"
+        },
+        {
+          "ref": "4AD441DFB1033D3B6CA64FBE"
+        },
+        {
+          "ref": "B4686A9D30CDA7DE4C3F2F33"
+        },
+        {
+          "ref": "ADDFBE094A60BA902F55E0D4"
+        },
+        {
+          "ref": "53BFB60248A4710A752F4E70"
+        },
+        {
+          "ref": "6F7199ED7B63CDA338A0FB82"
+        }
+      ],
+      "sourceTree": "<group>"
+    },
+    "8F4D0C97288DF3C168790D91": {
+      "isa": "XCLocalSwiftPackageReference",
+      "relativePath": "."
+    },
+    "3C23123E0D4D441A5447700F": {
+      "isa": "XCSwiftPackageProductDependency",
+      "package": {
+        "ref": "8F4D0C97288DF3C168790D91"
+      },
+      "productName": "SonorityCore"
+    },
+    "B6E4927B7F2A9DA7BEBE7997": {
+      "isa": "PBXBuildFile",
+      "productRef": {
+        "ref": "3C23123E0D4D441A5447700F"
+      }
+    },
+    "5B0ED873103124545F49F6B7": {
+      "isa": "XCSwiftPackageProductDependency",
+      "package": {
+        "ref": "8F4D0C97288DF3C168790D91"
+      },
+      "productName": "SonorityCore"
+    },
+    "C9008ED584E385C93841910A": {
+      "isa": "PBXBuildFile",
+      "productRef": {
+        "ref": "5B0ED873103124545F49F6B7"
+      }
+    },
+    "1B9982FEE916A13FEC0F20B7": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "DDA9ED7100424C653CD53F81"
+      }
+    },
+    "E06A1797B75662514E26B0E2": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "C416018AA832CE4ED12C10D5"
+      }
+    },
+    "CE1B791A32237342B6B29700": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "8B847361A2351A757F4E967A"
+      }
+    },
+    "45396EFFEAE64E1F7639F980": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "B496E8E8559756174CAE94C0"
+      }
+    },
+    "FDB4497B34234B7CED4ACE2F": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "343948320D85233178A3B1D7"
+      }
+    },
+    "2EE210C36BEDEE596C1921E9": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "75E952E99B67E83F4E8C69D6"
+      }
+    },
+    "D4F61D9F71B1C91EC86E3164": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "FB6E1E0BFF12AA0D280A4B8A"
+      }
+    },
+    "4CF2CF22E778CD0DDD1DFEEA": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "4432976615AED7EB2BFEC64E"
+      }
+    },
+    "650BD4C5BDCA89AD4260E1FA": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "9481FDC15DF0B8082A38FE95"
+      }
+    },
+    "1C5A75FFB92DA9CB822E244D": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "646AC66CD01E77CBDE10B5E4"
+      }
+    },
+    "17655138DE091C505416ABEA": {
+      "isa": "PBXSourcesBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [
+        {
+          "ref": "1B9982FEE916A13FEC0F20B7"
+        },
+        {
+          "ref": "E06A1797B75662514E26B0E2"
+        },
+        {
+          "ref": "CE1B791A32237342B6B29700"
+        },
+        {
+          "ref": "45396EFFEAE64E1F7639F980"
+        },
+        {
+          "ref": "FDB4497B34234B7CED4ACE2F"
+        },
+        {
+          "ref": "2EE210C36BEDEE596C1921E9"
+        },
+        {
+          "ref": "D4F61D9F71B1C91EC86E3164"
+        },
+        {
+          "ref": "4CF2CF22E778CD0DDD1DFEEA"
+        },
+        {
+          "ref": "650BD4C5BDCA89AD4260E1FA"
+        },
+        {
+          "ref": "1C5A75FFB92DA9CB822E244D"
+        }
+      ],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "1B85B821D2F93F337F70D49F": {
+      "isa": "PBXFrameworksBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [
+        {
+          "ref": "B6E4927B7F2A9DA7BEBE7997"
+        }
+      ],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "B04A23191022963A12C4CBCB": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "4AD441DFB1033D3B6CA64FBE"
+      }
+    },
+    "D18FD5E61A9286359343951E": {
+      "isa": "PBXResourcesBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [
+        {
+          "ref": "B04A23191022963A12C4CBCB"
+        }
+      ],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "7062EAE292E7D6E68292AD2D": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "69DEF42293BB50DB7B2503B0"
+      }
+    },
+    "3EEFD406CA7248E64F474131": {
+      "isa": "PBXSourcesBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [
+        {
+          "ref": "7062EAE292E7D6E68292AD2D"
+        }
+      ],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "CCD6A08E77F38D8B35C7C1E6": {
+      "isa": "PBXFrameworksBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "ECB07BFD963AE417C3C86B06": {
+      "isa": "PBXResourcesBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "0C127BB3F922B4DAEF771517": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "7FABE174E0F7A3305D2AB747"
+      }
+    },
+    "D7934D1E5431E43D00EE518B": {
+      "isa": "PBXSourcesBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [
+        {
+          "ref": "0C127BB3F922B4DAEF771517"
+        }
+      ],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "EEA7B40FF0F394BC78EAA36E": {
+      "isa": "PBXFrameworksBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [
+        {
+          "ref": "C9008ED584E385C93841910A"
+        }
+      ],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "9F6A4E941DE57E85FA5BABF0": {
+      "isa": "PBXResourcesBuildPhase",
+      "buildActionMask": 2147483647,
+      "files": [],
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "CE8BB3D2CD96728917F204AC": {
+      "isa": "PBXBuildFile",
+      "fileRef": {
+        "ref": "8FA98A24CDE63370537457A9"
+      },
+      "settings": {
+        "ATTRIBUTES": [
+          "RemoveHeadersOnCopy"
+        ]
+      }
+    },
+    "8336626A588BFF7E48225BCB": {
+      "isa": "PBXCopyFilesBuildPhase",
+      "buildActionMask": 2147483647,
+      "dstPath": "",
+      "dstSubfolderSpec": 13,
+      "files": [
+        {
+          "ref": "CE8BB3D2CD96728917F204AC"
+        }
+      ],
+      "name": "Embed App Extensions",
+      "runOnlyForDeploymentPostprocessing": 0
+    },
+    "82D3F98C29F6712177415044": {
+      "isa": "PBXContainerItemProxy",
+      "containerPortal": {
+        "ref": "244210E48437B6556980A702"
+      },
+      "proxyType": 1,
+      "remoteGlobalIDString": {
+        "ref": "314DC4CF3D401B5A7CB470DF"
+      },
+      "remoteInfo": "SonorityWidget"
+    },
+    "584C342C1866B10AB5FF7DA3": {
+      "isa": "PBXTargetDependency",
+      "target": {
+        "ref": "314DC4CF3D401B5A7CB470DF"
+      },
+      "targetProxy": {
+        "ref": "82D3F98C29F6712177415044"
+      }
+    },
+    "184B519F8E1416CCE38CFFD7": {
+      "isa": "XCBuildConfiguration",
+      "name": "Debug",
+      "buildSettings": {
+        "IPHONEOS_DEPLOYMENT_TARGET": "18.0",
+        "SDKROOT": "iphoneos",
+        "SWIFT_VERSION": "5.0",
+        "CLANG_ENABLE_MODULES": "YES",
+        "CLANG_ENABLE_OBJC_ARC": "YES",
+        "ENABLE_TESTABILITY": "YES",
+        "SWIFT_STRICT_CONCURRENCY": "targeted",
+        "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
+        "DEBUG_INFORMATION_FORMAT": "dwarf",
+        "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "DEBUG $(inherited)"
+      }
+    },
+    "A824290273A346217D9BE6F4": {
+      "isa": "XCBuildConfiguration",
+      "name": "Release",
+      "buildSettings": {
+        "IPHONEOS_DEPLOYMENT_TARGET": "18.0",
+        "SDKROOT": "iphoneos",
+        "SWIFT_VERSION": "5.0",
+        "CLANG_ENABLE_MODULES": "YES",
+        "CLANG_ENABLE_OBJC_ARC": "YES",
+        "ENABLE_TESTABILITY": "YES",
+        "SWIFT_STRICT_CONCURRENCY": "targeted",
+        "SWIFT_OPTIMIZATION_LEVEL": "-O",
+        "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym",
+        "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "$(inherited)"
+      }
+    },
+    "9F6B1A7BCFF26D263B843F95": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [
+        {
+          "ref": "184B519F8E1416CCE38CFFD7"
+        },
+        {
+          "ref": "A824290273A346217D9BE6F4"
+        }
+      ],
+      "defaultConfigurationIsVisible": 0,
+      "defaultConfigurationName": "Release"
+    },
+    "0D9B6C467828201280D620A8": {
+      "isa": "XCBuildConfiguration",
+      "name": "Debug",
+      "buildSettings": {
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PRODUCT_BUNDLE_IDENTIFIER": "app.sonority.player",
+        "TARGETED_DEVICE_FAMILY": "2",
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "",
+        "CURRENT_PROJECT_VERSION": "1",
+        "MARKETING_VERSION": "1.0",
+        "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GENERATE_INFOPLIST_FILE": "NO",
+        "INFOPLIST_FILE": "Config/Info.plist",
+        "ASSETCATALOG_COMPILER_APPICON_NAME": "AppIcon",
+        "SPOTIFY_CLIENT_ID": "",
+        "SPOTIFY_CALLBACK_HOST": "example.invalid",
+        "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks"
+      }
+    },
+    "E532E4CDC1E6865CE523475E": {
+      "isa": "XCBuildConfiguration",
+      "name": "Release",
+      "buildSettings": {
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PRODUCT_BUNDLE_IDENTIFIER": "app.sonority.player",
+        "TARGETED_DEVICE_FAMILY": "2",
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "",
+        "CURRENT_PROJECT_VERSION": "1",
+        "MARKETING_VERSION": "1.0",
+        "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GENERATE_INFOPLIST_FILE": "NO",
+        "INFOPLIST_FILE": "Config/Info.plist",
+        "ASSETCATALOG_COMPILER_APPICON_NAME": "AppIcon",
+        "SPOTIFY_CLIENT_ID": "",
+        "SPOTIFY_CALLBACK_HOST": "example.invalid",
+        "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks"
+      }
+    },
+    "5D32D499D7738AB763D0FB39": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [
+        {
+          "ref": "0D9B6C467828201280D620A8"
+        },
+        {
+          "ref": "E532E4CDC1E6865CE523475E"
+        }
+      ],
+      "defaultConfigurationIsVisible": 0,
+      "defaultConfigurationName": "Release"
+    },
+    "8C1A045E96B998B40533C7FF": {
+      "isa": "PBXNativeTarget",
+      "buildConfigurationList": {
+        "ref": "5D32D499D7738AB763D0FB39"
+      },
+      "buildPhases": [
+        {
+          "ref": "17655138DE091C505416ABEA"
+        },
+        {
+          "ref": "1B85B821D2F93F337F70D49F"
+        },
+        {
+          "ref": "D18FD5E61A9286359343951E"
+        },
+        {
+          "ref": "8336626A588BFF7E48225BCB"
+        }
+      ],
+      "buildRules": [],
+      "dependencies": [
+        {
+          "ref": "584C342C1866B10AB5FF7DA3"
+        }
+      ],
+      "name": "Sonority",
+      "packageProductDependencies": [
+        {
+          "ref": "3C23123E0D4D441A5447700F"
+        }
+      ],
+      "productName": "Sonority",
+      "productReference": {
+        "ref": "81F31879437340D5CD6ED968"
+      },
+      "productType": "com.apple.product-type.application"
+    },
+    "59EB77388CC75680BC0608D6": {
+      "isa": "XCBuildConfiguration",
+      "name": "Debug",
+      "buildSettings": {
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PRODUCT_BUNDLE_IDENTIFIER": "app.sonority.player.widget",
+        "TARGETED_DEVICE_FAMILY": "2",
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "",
+        "CURRENT_PROJECT_VERSION": "1",
+        "MARKETING_VERSION": "1.0",
+        "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GENERATE_INFOPLIST_FILE": "NO",
+        "INFOPLIST_FILE": "Config/WidgetInfo.plist",
+        "SKIP_INSTALL": "YES",
+        "APPLICATION_EXTENSION_API_ONLY": "YES",
+        "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
+      }
+    },
+    "B3460C54D98AE7B3180749EA": {
+      "isa": "XCBuildConfiguration",
+      "name": "Release",
+      "buildSettings": {
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PRODUCT_BUNDLE_IDENTIFIER": "app.sonority.player.widget",
+        "TARGETED_DEVICE_FAMILY": "2",
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "",
+        "CURRENT_PROJECT_VERSION": "1",
+        "MARKETING_VERSION": "1.0",
+        "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GENERATE_INFOPLIST_FILE": "NO",
+        "INFOPLIST_FILE": "Config/WidgetInfo.plist",
+        "SKIP_INSTALL": "YES",
+        "APPLICATION_EXTENSION_API_ONLY": "YES",
+        "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
+      }
+    },
+    "13EFC646831384DEB0FD710B": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [
+        {
+          "ref": "59EB77388CC75680BC0608D6"
+        },
+        {
+          "ref": "B3460C54D98AE7B3180749EA"
+        }
+      ],
+      "defaultConfigurationIsVisible": 0,
+      "defaultConfigurationName": "Release"
+    },
+    "314DC4CF3D401B5A7CB470DF": {
+      "isa": "PBXNativeTarget",
+      "buildConfigurationList": {
+        "ref": "13EFC646831384DEB0FD710B"
+      },
+      "buildPhases": [
+        {
+          "ref": "3EEFD406CA7248E64F474131"
+        },
+        {
+          "ref": "CCD6A08E77F38D8B35C7C1E6"
+        },
+        {
+          "ref": "ECB07BFD963AE417C3C86B06"
+        }
+      ],
+      "buildRules": [],
+      "dependencies": [],
+      "name": "SonorityWidget",
+      "packageProductDependencies": [],
+      "productName": "SonorityWidget",
+      "productReference": {
+        "ref": "8FA98A24CDE63370537457A9"
+      },
+      "productType": "com.apple.product-type.app-extension"
+    },
+    "2D78CCEA355AAA4DECA10BA5": {
+      "isa": "XCBuildConfiguration",
+      "name": "Debug",
+      "buildSettings": {
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PRODUCT_BUNDLE_IDENTIFIER": "app.sonority.tests",
+        "TARGETED_DEVICE_FAMILY": "2",
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "",
+        "CURRENT_PROJECT_VERSION": "1",
+        "MARKETING_VERSION": "1.0",
+        "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GENERATE_INFOPLIST_FILE": "YES"
+      }
+    },
+    "F1D4FEDE61515AFDB9B202CA": {
+      "isa": "XCBuildConfiguration",
+      "name": "Release",
+      "buildSettings": {
+        "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PRODUCT_BUNDLE_IDENTIFIER": "app.sonority.tests",
+        "TARGETED_DEVICE_FAMILY": "2",
+        "CODE_SIGN_STYLE": "Automatic",
+        "DEVELOPMENT_TEAM": "",
+        "CURRENT_PROJECT_VERSION": "1",
+        "MARKETING_VERSION": "1.0",
+        "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GENERATE_INFOPLIST_FILE": "YES"
+      }
+    },
+    "75F93D94C80F25B7A6BCCDAE": {
+      "isa": "XCConfigurationList",
+      "buildConfigurations": [
+        {
+          "ref": "2D78CCEA355AAA4DECA10BA5"
+        },
+        {
+          "ref": "F1D4FEDE61515AFDB9B202CA"
+        }
+      ],
+      "defaultConfigurationIsVisible": 0,
+      "defaultConfigurationName": "Release"
+    },
+    "2ADDEE89B29C55E11126D89F": {
+      "isa": "PBXNativeTarget",
+      "buildConfigurationList": {
+        "ref": "75F93D94C80F25B7A6BCCDAE"
+      },
+      "buildPhases": [
+        {
+          "ref": "D7934D1E5431E43D00EE518B"
+        },
+        {
+          "ref": "EEA7B40FF0F394BC78EAA36E"
+        },
+        {
+          "ref": "9F6A4E941DE57E85FA5BABF0"
+        }
+      ],
+      "buildRules": [],
+      "dependencies": [],
+      "name": "SonorityTests",
+      "packageProductDependencies": [
+        {
+          "ref": "5B0ED873103124545F49F6B7"
+        }
+      ],
+      "productName": "SonorityTests",
+      "productReference": {
+        "ref": "70F09BF32F6D77A92FF191B4"
+      },
+      "productType": "com.apple.product-type.bundle.unit-test"
+    },
+    "244210E48437B6556980A702": {
+      "isa": "PBXProject",
+      "attributes": {
+        "BuildIndependentTargetsInParallel": "YES",
+        "LastUpgradeCheck": "1600",
+        "TargetAttributes": {
+          "8C1A045E96B998B40533C7FF": {
+            "CreatedOnToolsVersion": "16.0"
+          },
+          "314DC4CF3D401B5A7CB470DF": {
+            "CreatedOnToolsVersion": "16.0"
+          },
+          "2ADDEE89B29C55E11126D89F": {
+            "CreatedOnToolsVersion": "16.0"
+          }
+        }
+      },
+      "buildConfigurationList": {
+        "ref": "9F6B1A7BCFF26D263B843F95"
+      },
+      "compatibilityVersion": "Xcode 15.0",
+      "developmentRegion": "en",
+      "hasScannedForEncodings": 0,
+      "knownRegions": [
+        "en",
+        "Base"
+      ],
+      "mainGroup": {
+        "ref": "AA0596BBDB4DCC95D5D4F10C"
+      },
+      "packageReferences": [
+        {
+          "ref": "8F4D0C97288DF3C168790D91"
+        }
+      ],
+      "productRefGroup": {
+        "ref": "6F7199ED7B63CDA338A0FB82"
+      },
+      "projectDirPath": "",
+      "projectRoot": "",
+      "targets": [
+        {
+          "ref": "8C1A045E96B998B40533C7FF"
+        },
+        {
+          "ref": "314DC4CF3D401B5A7CB470DF"
+        },
+        {
+          "ref": "2ADDEE89B29C55E11126D89F"
+        }
+      ]
+    }
+  },
+  "rootObject": "244210E48437B6556980A702"
+}

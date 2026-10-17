@@ -1,0 +1,11 @@
+PASS All project object references resolve
+PASS All referenced sources and configuration files exist
+PASS No app or widget source is omitted from the project
+PASS App, widget, and test targets have source build phases
+PASS Swift package includes the core and behavioral tests
+PASS Background audio, multitasking orientations, and navigation scheme are declared
+PASS No insecure network exceptions or shipped developer credentials
+PASS Spotify requests stay separate from local decoding
+PASS Shared scheme includes the unit tests
+
+9 project integrity checks passed. These checks do not compile Swift or exercise Apple frameworks.
